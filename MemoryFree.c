@@ -4,7 +4,7 @@
  * Modified to include functions to log minimum RAM
 */
 
-#include "WProgram.h"  
+#include <Arduino.h>
 #include "MemoryFree.h"
 
 extern unsigned int __data_start;

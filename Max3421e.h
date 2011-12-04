@@ -5,7 +5,8 @@
 #include <SPI.h>
 
 //#include <WProgram.h>
-#include "WProgram.h"
+//#include "WProgram.h"
+#include <Arduino.h>
 #include "Max3421e_constants.h"
 
 class MAX3421E : public SPIClass {
