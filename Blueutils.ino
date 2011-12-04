@@ -1,9 +1,9 @@
 /* MAX3421E USB Host controller Bluetooth demonstration */
 #include <SPI.h>
-#include <Max3421e.h>
-#include <Usb.h>
-#include <Max_LCD.h>
-#include <MemoryFree.h>
+#include "Max3421e.h"
+#include "Usb.h"
+#include "Max_LCD.h"
+#include "MemoryFree.h"
 #include <avr/pgmspace.h>
 
 /*The application will work in reduced host mode, so we can save program and data
